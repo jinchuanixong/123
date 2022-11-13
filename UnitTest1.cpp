@@ -24,9 +24,9 @@ namespace UnitTest1
 		}
 	};
 }
-namespace UnitTest
+namespace UnitTest2
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(UnitTest2)
 	{
 	public:
 		
@@ -44,13 +44,13 @@ namespace UnitTest
 		}
 	};
 }
-namespace UnitTest
+namespace UnitTest3
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(UnitTest3)
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestMethod3)
 		{
 			int maxSum = 0;
 			int nowSum = 0;
